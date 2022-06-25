@@ -18,7 +18,7 @@ $(window).scroll(function () {
 });
 
 function displayNav(v){
-    if(v > aboutOffset - 150)
+    if(v > aboutOffset - 50)
     {
         $("#btnUp").fadeIn(500);
     }
