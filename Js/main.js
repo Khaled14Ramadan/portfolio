@@ -8,28 +8,28 @@ let menu = function () {
 
 //to show background of nav after header (jQuery)
 
-// let aboutOffset = $("#about").offset().top;
-// displayNav($(window).scrollTop());//if reload when secroll after about section
+let aboutOffset = $("#about").offset().top;
+displayNav($(window).scrollTop());//if reload when secroll after about section
 
-// $(window).scroll(function () {
+$(window).scroll(function () {
 
-//     let valueScroll = $(window).scrollTop();
-//     displayNav(valueScroll);
-// });
+    let valueScroll = $(window).scrollTop();
+    displayNav(valueScroll);
+});
 
-// function displayNav(v){
-//     if(v > aboutOffset - 50)
-//     {
-//         $("#btnUp").fadeIn(500);
-//     }
-//     else{
-//         $("#btnUp").fadeOut(500);
-//     }
-// }
+function displayNav(v){
+    if(v > aboutOffset - 50)
+    {
+        $("#btnUp").fadeIn(500);
+    }
+    else{
+        $("#btnUp").fadeOut(500);
+    }
+}
 
-// ///this write behavior scrool by jquery
+///this write behavior scrool by jquery
 
-// $("a[href ^='#']").click(function(){
-//     let aHref = $(this.href).offset().top;
-//     $("html , body").animate({scrollTop:aHref} , 2000);
-// });
+$("a[href ^='#']").click(function(){
+    let aHref = $(this.href).offset().top;
+    $("html , body").animate({scrollTop:aHref} , 2000);
+});
