@@ -32,7 +32,7 @@ html {
 
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'sans-serif';
 }
 
 .container {
@@ -266,6 +266,12 @@ header .container nav ul li a:hover{
     z-index: 7;
 }
 
+.landing h1 {
+    font-size:xx-large;
+    
+    color: var(--main-color);
+}
+
 .landing .image {
     width: 150px;
     height: 150px;
@@ -276,11 +282,11 @@ header .container nav ul li a:hover{
 max-width: 500px;
 }
 
-.landing h2 {
+.landing h1 {
     
     font-size: 32px;
-    font-weight: normal;
-    line-height: 1.5;
+    font-weight: 800;
+    /* line-height: 1; */
     margin-bottom: 20px;
 }
 
@@ -415,6 +421,13 @@ max-width: 500px;
     height: 100%;
     opacity: 1;
     top: 0;
+}
+
+#about .CV {
+    color: white;
+}
+#about .CV:hover {
+    color : var(--transparent-color);
 }
 
 /* End portfolio */
