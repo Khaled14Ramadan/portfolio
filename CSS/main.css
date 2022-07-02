@@ -134,6 +134,31 @@ body{
         width: 30px;
         height: 30px;
     }
+
+    /* icon-contact */
+    .icon-contact {
+        position: fixed;
+        right: 30px;
+        top: 50%;
+        z-index: 100;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .icon-contact .icon{
+        color: #f1f1f1;
+        background-color:  var(--main-color);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-contact .icon:hover ,  #btnUp:hover {
+        color: var(--transparent-color);
+    }
    
 /* End content */
 
@@ -350,6 +375,9 @@ max-width: 500px;
 .portfolio .nav-item .active , .portfolio .nav-item a:focus {
     color: var(--main-color) !important;
 }
+
+
+
 .portfolio-item:hover{
     cursor: pointer;
 }
