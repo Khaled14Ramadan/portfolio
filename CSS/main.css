@@ -98,10 +98,9 @@ body{
     bottom: -38px;
     left: 50%;
     transform: translateX(-50%);
-    width: 14px;
+    width: 40px;
     height: 14px;
     border: 0.5px solid var(--main-color);
-    
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -412,25 +411,19 @@ max-width: 500px;
 .counter-item i {
     color: var(--main-color);
 }
-.feedback{
-    position: relative;
-    overflow: hidden;
-    border-radius: 5px;
-}
-.feedback:before{
-    content: "";
-    position: absolute;
-    bottom: 75%;
-    right: 82%;
-    width: 50%;
-    height: 100%;
-    background-color: #FF305B;
-    transform: rotate(45deg);
-}
+
 
 .portfolio-item{
     overflow: hidden;
     position: relative;
+    height: 80%;
+    margin-bottom: 20px;
+    border: 1px solid var(--transparent-color);
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
 }
 
 .overlay2{
@@ -461,6 +454,15 @@ max-width: 500px;
     height: 100%;
     opacity: 1;
     top: 0;
+}
+
+@media (max-width : 787px) {
+    .overlay2 {
+        visibility: visible;
+        height: 100%;
+        opacity: 1;
+        top: 0;
+    }
 }
 
 #about .CV {
