@@ -416,7 +416,7 @@ max-width: 500px;
 .portfolio-item{
     overflow: hidden;
     position: relative;
-    height: 80%;
+    height: 85%;
     margin-bottom: 20px;
     border: 1px solid var(--transparent-color);
     border-radius: 5%;
