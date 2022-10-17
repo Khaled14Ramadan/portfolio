@@ -375,11 +375,10 @@ max-width: 500px;
     color: var(--main-color) !important;
 }
 
-
-
 .portfolio-item:hover{
     cursor: pointer;
 }
+
 .portfolio-item .overlay2 i {
     position: absolute;
     bottom: 10px;
@@ -454,6 +453,15 @@ max-width: 500px;
     height: 100%;
     opacity: 1;
     top: 0;
+}
+
+.portfolio .seeAll-btn button{
+    background-color: var(--main-color);
+    color: var(--bg-color-section);
+}
+
+.portfolio .seeAll-btn button:hover{
+    color:var(--transparent-color);
 }
 
 @media (max-width : 787px) {

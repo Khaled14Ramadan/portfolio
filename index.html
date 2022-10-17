@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="images/kr2.ico" />
@@ -11,48 +12,51 @@
     <link rel="stylesheet" href="CSS/all.min.css">
     <link rel="stylesheet" href="CSS/main.css">
 </head>
+
 <body>
 
-    <a href="#home">    
-        <button id="btnUp" class="rounded-circle border-0" >
+    <a href="#home">
+        <button id="btnUp" class="rounded-circle border-0">
             <i class="fas fa-arrow-alt-circle-up"></i>
         </button>
     </a>
-  <div class = "icon-contact">
-    <a href="http://wa.me/+201224017163" target="_blank">
-        <div class="icon rounded-circle">
-            <i class="fab fa-whatsapp"></i>
-        </div>
-    </a>
-    <a href="tel:+201224017163" target="_blank">
-        <div class="icon rounded-circle">
-            <i class="fas fa-phone"></i>
-        </div>
-    </a>
-    <a href="mailto:khaled14ramadan@gmail.com" target="_blank">
-        <div class="icon rounded-circle">
-            <i class="fas fa-envelope"></i>
-        </div>
-    </a>
-  </div>
+    <div class="icon-contact">
+        <a href="http://wa.me/+201224017163" target="_blank">
+            <div class="icon rounded-circle">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+        </a>
+        <a href="tel:+201224017163" target="_blank">
+            <div class="icon rounded-circle">
+                <i class="fas fa-phone"></i>
+            </div>
+        </a>
+        <a href="mailto:khaled14ramadan@gmail.com" target="_blank">
+            <div class="icon rounded-circle">
+                <i class="fas fa-envelope"></i>
+            </div>
+        </a>
+    </div>
 
-   
+
     <!-- Start header -->
-    <header id="home">
-        
+    <header id="home" class="bg-dark fixed-top opacity-75">
+
         <div class="container">
-            <a href="#home"><h1>Portfolio</h1></a>
+            <a href="#home">
+                <h1>khaled</h1>
+            </a>
             <nav>
                 <i class="fas fa-bars toggle-menu" onclick="menu()"></i>
                 <ul id="khaled">
-                    <li><a onclick="menu()" class="active" href="#">Home</a></li>
-                    <li><a onclick="menu()" href="#about">About</a></li>
-                    <li><a onclick="menu()" href="#services">Services</a></li>
-                    <li><a onclick="menu()" href="#portfolio">Projects</a></li>
-                    <li><a onclick="menu()" href="#skills">Skills</a></li>
-                    <li><a onclick="menu()" href="#contact">Contact</a></li>
+                    <li><a onclick="menu()" class="nav-linke active" href="#">Home</a></li>
+                    <li><a onclick="menu()" class="nav-linke" href="#about">About</a></li>
+                    <li><a onclick="menu()" class="nav-linke" href="#services">Services</a></li>
+                    <li><a onclick="menu()" class="nav-linke" href="#portfolio">Projects</a></li>
+                    <li><a onclick="menu()" class="nav-linke" href="#skills">Skills</a></li>
+                    <li><a onclick="menu()" class="nav-linke" href="#contact">Contact</a></li>
                 </ul>
-                
+
             </nav>
         </div>
     </header>
@@ -61,24 +65,28 @@
     <!-- start landing -->
     <div class="landing">
         <div class="overlay"></div>
-            <div class="text">
-                <div class="image">
-                    <img src="images/ME/khaled.jpg" class="w-100 h-100 rounded-circle" alt="">
-                </div>
-                <div class="content text-center mt-4">
-                    <h5 >Hello , I'm</h5>
-                    <h1 class="font-weight-bolder ps-2">Khaled Ramadan</h1>
-                    <h4>Front End Developer</h4>
-                    <div class="social">
-                        <a href='https://www.facebook.com/khaled14ramadan' target="_blank"><i class="fab fa-facebook-f text-white m-2"></i></a>
-                        <a href='https://www.youtube.com/channel/UCWlgAi4SrmbsKoFGSNpxH2g' target="_blank"><i class="fab fa-youtube text-white m-2"></i></a>
-                        <a href="https://www.linkedin.com/in/khaled-ramadan-978a14168" target="_blank"><i class="fab fa-linkedin text-white m-2"></i></a>
-                        <a href="https://github.com/Khaled14Ramadan" target="_blank"><i class="fab fa-github text-white m-2"></i></a>
-                     </div>
-                    
-                </div>
-                
+        <div class="text">
+            <div class="image">
+                <img src="images/ME/khaled.jpg" class="w-100 h-100 rounded-circle" alt="">
             </div>
+            <div class="content text-center mt-4">
+                <h5>Hello , I'm</h5>
+                <h1 class="font-weight-bolder ps-2">Khaled Ramadan</h1>
+                <h4>Front End Developer</h4>
+                <div class="social">
+                    <a href='https://www.facebook.com/khaled14ramadan' target="_blank"><i
+                            class="fab fa-facebook-f text-white m-2"></i></a>
+                    <a href='https://www.youtube.com/channel/UCWlgAi4SrmbsKoFGSNpxH2g' target="_blank"><i
+                            class="fab fa-youtube text-white m-2"></i></a>
+                    <a href="https://www.linkedin.com/in/khaled-ramadan-978a14168" target="_blank"><i
+                            class="fab fa-linkedin text-white m-2"></i></a>
+                    <a href="https://github.com/Khaled14Ramadan" target="_blank"><i
+                            class="fab fa-github text-white m-2"></i></a>
+                </div>
+
+            </div>
+
+        </div>
     </div>
     <!-- End landing -->
 
@@ -89,17 +97,21 @@
                 <h2 class="font-weight-bolder">About Me</h2>
             </div>
             <div class="row">
-                
+
                 <div class="col-md-4 mb-4">
                     <div class="about_pic">
                         <div class="pic_border">
                             <img class="img-fluid" src="images/about/TS.jpg" />
                             <div class="overlay2 ">
                                 <div class="d-flex justify-content-center align-items-center h-100 my-auto">
-                                    <a href='https://www.facebook.com/khaled14ramadan' target="_blank"><i class="fab fa-facebook-f text-white m-2"></i></a>
-                                    <a href='https://www.youtube.com/channel/UCWlgAi4SrmbsKoFGSNpxH2g' target="_blank"><i class="fab fa-youtube text-white m-2"></i></a>
-                                    <a href="https://www.linkedin.com/in/khaled-ramadan-978a14168" target="_blank"><i class="fab fa-linkedin text-white m-2"></i></a>
-                                    <a href="https://github.com/Khaled14Ramadan" target="_blank"><i class="fab fa-github text-white m-2"></i></a>
+                                    <a href='https://www.facebook.com/khaled14ramadan' target="_blank"><i
+                                            class="fab fa-facebook-f text-white m-2"></i></a>
+                                    <a href='https://www.youtube.com/channel/UCWlgAi4SrmbsKoFGSNpxH2g'
+                                        target="_blank"><i class="fab fa-youtube text-white m-2"></i></a>
+                                    <a href="https://www.linkedin.com/in/khaled-ramadan-978a14168" target="_blank"><i
+                                            class="fab fa-linkedin text-white m-2"></i></a>
+                                    <a href="https://github.com/Khaled14Ramadan" target="_blank"><i
+                                            class="fab fa-github text-white m-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -110,12 +122,13 @@
                     <div class="about-data">
                         <h2 class="font-weight-bolder">HELLO ,</h2>
                         <p class="text-muted pb-3 data">
-                             I'm 27 Years Old, I graduated from Banha  University.Bachelor’s Degree of computer science              
+                            I'm 27 Years Old, I graduated from Banha University.Bachelor’s Degree of computer science
                             I'm a web developer with a working proficiency in HTML, CSS, Javascript, React Js.
-                             I am Passionate About Web Techniques,
+                            I am Passionate About Web Techniques,
                             Seek A Keen Knowledge In This Field By Learning Day By Day,
-                             My Goal Is To Continuously Grow As A Developer While Staying Current With The Latest Trends And Technologies.
-                            
+                            My Goal Is To Continuously Grow As A Developer While Staying Current With The Latest Trends
+                            And Technologies.
+
                         </p>
                         <div class="row g-1">
                             <div class="col-md-6">
@@ -142,7 +155,7 @@
                                     </p>
                                     <p class="py-1 font-weight-bold">
                                         Location:
-                                        <span class="text-muted font-weight-light">Egypt, Eg</span>
+                                        <span class="text-muted font-weight-light">Egypt</span>
                                     </p>
                                     <p class="py-1 font-weight-bold">
                                         Email:
@@ -152,10 +165,9 @@
                             </div>
                         </div>
                         <button class="btn py-2 px-3 mx-3">
-                            <a class="CV" href="./media/CV/khaled Ramadan FrontEnd.pdf" target="_blank" download=""> 
+                            <a class="CV" href="./media/CV/khaled Ramadan FrontEnd.pdf" target="_blank" download="">
                                 Download CV <i class="fas fa-download m-1"></i>
                             </a>
-                           
                         </button>
                         <!-- <button class="btn py-2 px-3 p-2 mx-3">
                             Hire Me <i class="fas fa-paper-plane m-1"></i>
@@ -180,9 +192,9 @@
                             <i class="fas fa-pencil-ruler m-2"></i>
                             <h5 class="font-weight-bold my-3">UI DESIGN</h5>
                             <p class="px-1 text-muted">
-                                Creativity and design skills. 
-                                Creating UI designs with attractive features, 
-                                and responsive interface elements requires a flair for creativity. 
+                                Creativity and design skills.
+                                Creating UI designs with attractive features,
+                                and responsive interface elements requires a flair for creativity.
                             </p>
                         </div>
                     </div>
@@ -200,8 +212,8 @@
                             <i class="fas fa-chart-line m-2"></i>
                             <h5 class="font-weight-bold my-3">PRODUCT DESIGN</h5>
                             <p class="px-1 text-muted">
-                                I can make Responsive design means that the site’s layout 
-                                (and sometimes functionality and content) 
+                                I can make Responsive design means that the site’s layout
+                                (and sometimes functionality and content)
                                 change based on the screen size and device someone uses.
                             </p>
                         </div>
@@ -221,7 +233,7 @@
         </div>
     </section>
     <!-- End services -->
-    
+
     <!-- Start Portfolio -->
     <section id="portfolio">
         <div class="container text-center py-5">
@@ -231,24 +243,24 @@
             <div class="portfolio py-4">
                 <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
                     <li class="nav-item " role="presentation">
-                      <button class="nav-link active bg-transparent text-dark" 
-                      id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" 
-                      type="button" role="tab" aria-controls="pills-all" aria-selected="true">ALL</button>
+                        <button class="nav-link active bg-transparent text-dark" id="pills-all-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab"
+                            aria-controls="pills-all" aria-selected="true">ALL</button>
                     </li>
                     <li class="nav-item " role="presentation">
-                      <button class="nav-link bg-transparent text-dark"  
-                      id="pills-html-tab" data-bs-toggle="pill" data-bs-target="#pills-html" 
-                      type="button" role="tab" aria-controls="pills-html" aria-selected="false">HTML&CSS</button>
+                        <button class="nav-link bg-transparent text-dark" id="pills-html-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-html" type="button" role="tab" aria-controls="pills-html"
+                            aria-selected="false">HTML&CSS</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link bg-transparent text-dark"  
-                        id="pills-js-tab" data-bs-toggle="pill" data-bs-target="#pills-js" 
-                        type="button" role="tab" aria-controls="pills-js" aria-selected="false">JAVASCRIPT</button>
+                        <button class="nav-link bg-transparent text-dark" id="pills-js-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-js" type="button" role="tab" aria-controls="pills-js"
+                            aria-selected="false">JAVASCRIPT</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link bg-transparent text-dark"  
-                        id="pills-react-tab" data-bs-toggle="pill" data-bs-target="#pills-react" 
-                        type="button" role="tab" aria-controls="pills-react" aria-selected="false">REACT.JS</button>
+                        <button class="nav-link bg-transparent text-dark" id="pills-react-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-react" type="button" role="tab" aria-controls="pills-react"
+                            aria-selected="false">REACT.JS</button>
                     </li>
                 </ul>
 
@@ -256,6 +268,8 @@
                     <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
                         aria-labelledby="pills-all-tab">
                         <div class="row">
+
+                            <!--  nosa trending -->
                             <div class="col-md-4">
                                 <div class="portfolio-item p-3  ">
                                     <img class="img-fluid" src="media/projects/nosa trending/3.jpg" />
@@ -265,28 +279,54 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
+                            <!-- mogo template -->
                             <div class="col-md-4">
-                                <div class="portfolio-item p-3 ">
-                                    <img class="img-fluid" src="media/projects/kasper/1.PNG" />
-                                    <img class="img-fluid" src="media/projects/kasper/2.PNG" />
-                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal3">
-                                        <button class="discription btn btn-outline-info">kasper Template</button>
-                                        <i class="fas fa-link"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 ">
-                                <div class="portfolio-item p-3  ">
-                                    <img class="img-fluid" src="media/projects/CRUDS/Mobile.PNG" />
-                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal4">
-                                        <button class="discription btn btn-outline-info">description</button>
+                                <div class="portfolio-item p-3 card">
+                                    <img class="img-fluid" src="media/projects/Mogo_template/mogo.PNG" />
+                                    <img class="img-fluid" src="media/projects/Mogo_template/mogo2.PNG" />
+                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal7">
+                                        <button class="discription btn btn-outline-info">MOGO</button>
                                         <i class="fas fa-link"></i>
                                     </div>
                                 </div>
                             </div>
 
+                            <!-- Kababs template -->
+                            <div class="col-md-4">
+                                <div class="portfolio-item p-3 card">
+                                    <img class="img-fluid" src="media/projects/kababs/kababs1.PNG" />
+                                    <img class="img-fluid" src="media/projects/kababs/kababs2.PNG" />
+                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal8">
+                                        <button class="discription btn btn-outline-info">Yannal Kababs</button>
+                                        <i class="fas fa-link"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Memory card game -->
+                            <div class="col-md-4">
+                                <div class="portfolio-item p-3 ">
+                                    <img class="img-fluid" src="media/projects/Memory card/2.PNG" />
+                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal6">
+                                        <button class="discription btn btn-outline-info">Memory Card Game </button>
+                                        <i class="fas fa-link"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- CRUDS mangement system -->
+                            <div class="col-md-4 ">
+                                <div class="portfolio-item p-3  ">
+                                    <img class="img-fluid" src="media/projects/CRUDS/Mobile.PNG" />
+                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal4">
+                                        <button class="discription btn btn-outline-info">CRUDS</button>
+                                        <i class="fas fa-link"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Weather Pure JS -->
                             <div class="col-md-4 ">
                                 <div class="portfolio-item p-3  ">
                                     <img class="img-fluid" src="media/projects/Weather App/4.PNG" />
@@ -297,9 +337,22 @@
                                     </div>
                                 </div>
                             </div>
-                           
+
+                            <!-- kasper template -->
                             <div class="col-md-4">
-                                <div class="portfolio-item p-3  ">
+                                <div class="portfolio-item p-3 d-none">
+                                    <img class="img-fluid" src="media/projects/kasper/1.PNG" />
+                                    <img class="img-fluid" src="media/projects/kasper/2.PNG" />
+                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal3">
+                                        <button class="discription btn btn-outline-info">kasper Template</button>
+                                        <i class="fas fa-link"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- leon template -->
+                            <div class="col-md-4">
+                                <div class="portfolio-item p-3  d-none">
                                     <img class="img-fluid" src="media/projects/leon/leon1.PNG" />
                                     <img class="img-fluid" src="media/projects/leon/leon2.PNG" />
                                     <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal2">
@@ -308,49 +361,43 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="portfolio-item p-3 ">
-                                    <img class="img-fluid" src="media/projects/Memory card/2.PNG" />
-                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal6">
-                                        <button class="discription btn btn-outline-info">Memory Card Game </button>
-                                        <i class="fas fa-link"></i>
-                                    </div>
-                                </div>
+
+                            <div class="seeAll-btn" >
+                                <button class="btn py-2 px-3 mx-3" id="seeAll">
+                                        See All
+                                </button>
                             </div>
-                            <!-- <div class="col-md-4">
-                                <div class="portfolio-item p-3 card">
-                                    <img class="img-fluid" src="media/projects/nosa trending/3.jpg" />
-                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal1">
-                                        <button class="discription btn btn-outline-info">description</button>
-                                        <i class="fas fa-link"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="portfolio-item p-3 card">
-                                    <img class="img-fluid" src="media/projects/nosa trending/3.jpg" />
-                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal1">
-                                        <button class="discription btn btn-outline-info">description</button>
-                                        <i class="fas fa-link"></i>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="pills-html" role="tabpanel" 
-                        aria-labelledby="pills-html-tab">
+                    <!-- html tab -->
+                    <div class="tab-pane fade" id="pills-html" role="tabpanel" aria-labelledby="pills-html-tab">
                         <div class="row">
+                            <!-- mogo template -->
                             <div class="col-md-4">
-                                <div class="portfolio-item p-3  ">
-                                    <img class="img-fluid" src="media/projects/nosa trending/3.jpg" />
-                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal1">
-                                        <button class="discription btn btn-outline-info">description</button>
+                                <div class="portfolio-item p-3 card">
+                                    <img class="img-fluid" src="media/projects/Mogo_template/mogo.PNG" />
+                                    <img class="img-fluid" src="media/projects/Mogo_template/mogo2.PNG" />
+                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal7">
+                                        <button class="discription btn btn-outline-info">MOGO</button>
                                         <i class="fas fa-link"></i>
                                     </div>
                                 </div>
                             </div>
 
+                            <!-- Kababs template -->
+                            <div class="col-md-4">
+                                <div class="portfolio-item p-3 card">
+                                    <img class="img-fluid" src="media/projects/kababs/kababs1.PNG" />
+                                    <img class="img-fluid" src="media/projects/kababs/kababs2.PNG" />
+                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal8">
+                                        <button class="discription btn btn-outline-info">Yannal Kababs</button>
+                                        <i class="fas fa-link"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Kababs template -->
                             <div class="col-md-4">
                                 <div class="portfolio-item p-3  ">
                                     <img class="img-fluid" src="media/projects/kasper/1.PNG" />
@@ -361,17 +408,8 @@
                                     </div>
                                 </div>
                             </div>
-    
-                            <div class="col-md-4 ">
-                                <div class="portfolio-item p-3  ">
-                                    <img class="img-fluid" src="media/projects/CRUDS/Mobile.PNG" />
-                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal4">
-                                        <button class="discription btn btn-outline-info">description</button>
-                                        <i class="fas fa-link"></i>
-                                    </div>
-                                </div>
-                            </div>
 
+                            <!-- leon template -->
                             <div class="col-md-4">
                                 <div class="portfolio-item p-3  ">
                                     <img class="img-fluid" src="media/projects/leon/leon1.PNG" />
@@ -382,7 +420,14 @@
                                     </div>
                                 </div>
                             </div>
-    
+
+                        </div>
+                    </div>
+
+                    <!-- JavaScript tab -->
+                    <div class="tab-pane fade" id="pills-js" role="tabpanel" aria-labelledby="pills-js-tab">
+                        <div class="row">
+                            <!-- Memory card game -->
                             <div class="col-md-4">
                                 <div class="portfolio-item p-3 ">
                                     <img class="img-fluid" src="media/projects/Memory card/2.PNG" />
@@ -392,37 +437,8 @@
                                     </div>
                                 </div>
                             </div>
-                           
-                        </div>
 
-                        
-
-                    </div>
-
-                    <div class="tab-pane fade" id="pills-js" role="tabpanel" 
-                        aria-labelledby="pills-js-tab"  > 
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="portfolio-item p-3  ">
-                                    <img class="img-fluid" src="media/projects/nosa trending/3.jpg" />
-                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal1">
-                                        <button class="discription btn btn-outline-info">description</button>
-                                        <i class="fas fa-link"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="portfolio-item p-3  ">
-                                    <img class="img-fluid" src="media/projects/kasper/1.PNG" />
-                                    <img class="img-fluid" src="media/projects/kasper/2.PNG" />
-                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal3">
-                                        <button class="discription btn btn-outline-info">description</button>
-                                        <i class="fas fa-link"></i>
-                                    </div>
-                                </div>
-                            </div>
-
+                            <!-- CRUDS mangement system -->
                             <div class="col-md-4 ">
                                 <div class="portfolio-item p-3  ">
                                     <img class="img-fluid" src="media/projects/CRUDS/Mobile.PNG" />
@@ -433,6 +449,7 @@
                                 </div>
                             </div>
 
+                            <!-- Weather Pure JS -->
                             <div class="col-md-4 ">
                                 <div class="portfolio-item p-3  ">
                                     <img class="img-fluid" src="media/projects/Weather App/4.PNG" />
@@ -444,21 +461,13 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
-                                <div class="portfolio-item p-3 ">
-                                    <img class="img-fluid" src="media/projects/Memory card/2.PNG" />
-                                    <div class="overlay2" data-bs-toggle="modal" data-bs-target="#modal6">
-                                        <button class="discription btn btn-outline-info">Memory Card Game </button>
-                                        <i class="fas fa-link"></i>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="pills-react" role="tabpanel" 
-                        aria-labelledby="pills-react-tab" >
+                    <!-- React.js tab -->
+                    <div class="tab-pane fade" id="pills-react" role="tabpanel" aria-labelledby="pills-react-tab">
                         <div class="row">
+                            <!--  nosa trending -->
                             <div class="col-md-4">
                                 <div class="portfolio-item p-3  ">
                                     <img class="img-fluid" src="media/projects/nosa trending/3.jpg" />
@@ -468,10 +477,10 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <!-- End Portfolio -->
 
@@ -493,265 +502,320 @@
                 <div class="skill"><img src="images/skills/c++.png" alt=""></div>
                 <div class="skill"><img src="images/skills/sql.png" alt=""></div>
                 <div class="skill"><img src="images/skills/git.png" alt=""></div>
+            </div>
         </div>
-        </div>
-      </section>
+    </section>
     <!-- End Skills -->
 
     <!-- Start contactus -->
     <section class="contact" id="contact">
-    <div class="container text-center py-5">
-        <div class="spepcial-heading  ">
-            <h2 class="font-weight-bolder">Contact Me</h2>
-        </div>
-        <div class="d-flex justify-content-around flex-md-row flex-column align-items-center">
-            <div class="card ">
-                <a href="http://wa.me/+201224017163" target="_blank">
-                    <div class="icon">
-                        <i class="fab fa-whatsapp"></i>
-                    </div>
-                    <div class="info">
-                        <h3>Whatsapp</h3>
-                        <p>+20-1224017163</p>
-                    </div>
-                </a>
+        <div class="container text-center py-5">
+            <div class="spepcial-heading  ">
+                <h2 class="font-weight-bolder">Contact Me</h2>
             </div>
-        
-        
-            <div class="card ">
-                <a href="tel:+201224017163" target="_blank">
-                    <div class="icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <div class="info">
-                        <h3>Phone</h3>
-                        <p>+20-1224017163</p>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a href="mailto:khaled14ramadan@gmail.com" target="_blank">
-                    <div class="icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="info">
-                        <h3>Email</h3>
-                        <p>khaled14ramadan@gmail.com</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-  </section>
-  <!-- End contactus -->
-
-  <!-- ٍٍStart footer -->
-  <footer>
-    <div class="text-center d-flex flex-column justify-content-evenly">
-        <div class="social">
-            <a href='https://www.facebook.com/khaled14ramadan' target="_blank"><i class="fab fa-facebook-f text-white m-2"></i></a>
-            <a href='https://www.youtube.com/channel/UCWlgAi4SrmbsKoFGSNpxH2g' target="_blank"><i class="fab fa-youtube text-white m-2"></i></a>
-            <a href="https://www.linkedin.com/in/khaled-ramadan-978a14168" target="_blank"><i class="fab fa-linkedin text-white m-2"></i></a>
-            <a href="https://github.com/Khaled14Ramadan" target="_blank"><i class="fab fa-github text-white m-2"></i></a>
-        </div>
-        <div class="foot">&copy; 2022 <span>Khaled Ramadan </span></div>
-
-    </div>
-  </footer>
-  <!-- ٍٍEnd footer -->
-
-  <!-- Modals -->
-<div class="container">
-    
-    <div class="modal fade" id="modal1"  role="dialog"
-    aria-labelledby="modal1" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title text-info" id="exampleModalLabel">NOSA Trending</h5>
-                <button type="button" class="close" data-bs-dismiss="modal"
-                    aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-left">
-                <img class="img-fluid" src="media/projects/nosa trending/1.PNG">
-                <div class="d-flex justify-content-around m-4">
-                    <a href="https://nosa-trending.web.app" target="_blank">
-                        <button class="btn btn-outline-info">Visit Website</button>
-                    </a>
-                    <a href="https://github.com/Khaled14Ramadan/Nosa_Trending" target="_blank">
-                        <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
+            <div class="d-flex justify-content-around flex-md-row flex-column align-items-center">
+                <div class="card ">
+                    <a href="http://wa.me/+201224017163" target="_blank">
+                        <div class="icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="info">
+                            <h3>Whatsapp</h3>
+                            <p>+20-1224017163</p>
+                        </div>
                     </a>
                 </div>
-                <p class="text-muted my-2">This website works on showing the most trending movies and series in the week 
-                    and shows them in an organized manner with few details (poster - title- rate).</p>
-                    <h4>The website pages : </h4>
-                    <ul>
-                        <li><span class="fw-bolder">Register :</span> You must register an account on the site.</li>
-                        <li><span class="fw-bolder">Login :</span> You must enter your acoount.</li>
-                        <li><span class="fw-bolder">Home :</span> this is showing the most 10 trending movies and 10 trending series in the week.</li>
-                        <li><span class="fw-bolder">Movies :</span> this is showing the most 20 trending movies in the day.</li>
-                        <li><span class="fw-bolder">TV :</span> this is showing the most 20 trending series in the day.</li>
-                        <li><span class="fw-bolder">Details :</span> When click on any poster in Home , Movies or TV , you go to the details page have more details on this movie.</li>
-                    </ul>
-                
-            </div>
-        </div>
-    </div>
-    </div>
 
-    <!-- model2 -->
-    <div class="modal fade" id="modal2"  role="dialog"
-    aria-labelledby="modal2" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title text-info" id="exampleModalLabel">Leon Template</h5>
-                <button type="button" class="close" data-bs-dismiss="modal"
-                    aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-left">
-                <img class="img-fluid" src="media/projects/leon/leon.PNG">
-                <div class="d-flex justify-content-around m-4">
-                    <a href="https://khaled14ramadan.github.io/HTML_and_CSS_templet_one/" target="_blank">
-                        <button class="btn btn-outline-info">Visit Website</button>
-                    </a>
-                    <a href="https://github.com/Khaled14Ramadan/HTML_and_CSS_templet_one" target="_blank">
-                        <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
+
+                <div class="card ">
+                    <a href="tel:+201224017163" target="_blank">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info">
+                            <h3>Phone</h3>
+                            <p>+20-1224017163</p>
+                        </div>
                     </a>
                 </div>
-                <p class="text-muted my-2">this is my first simple template and Responsive design .
-                    I had implement by html and css .</p>
-                
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <!-- model3 -->
-    <div class="modal fade" id="modal3"  role="dialog"
-    aria-labelledby="modal3" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title text-info" id="exampleModalLabel">Kasper Template</h5>
-                <button type="button" class="close" data-bs-dismiss="modal"
-                    aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-left">
-                <img class="img-fluid" src="media/projects/kasper/1.PNG">
-                <div class="d-flex justify-content-around m-4">
-                    <a href="https://khaled14ramadan.github.io/HTML_and_CSS_templet_two/" target="_blank">
-                        <button class="btn btn-outline-info">Visit Website</button>
-                    </a>
-                    <a href="https://github.com/Khaled14Ramadan/HTML_and_CSS_templet_two" target="_blank">
-                        <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
+                <div class="card">
+                    <a href="mailto:khaled14ramadan@gmail.com" target="_blank">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info">
+                            <h3>Email</h3>
+                            <p>khaled14ramadan@gmail.com</p>
+                        </div>
                     </a>
                 </div>
-                <p class="text-muted my-2">this is a simple template and Responsive design .
-                    I had implement by html, css and some of javascript.</p>
-                
+            </div>
+    </section>
+    <!-- End contactus -->
+
+    <!-- ٍٍStart footer -->
+    <footer>
+        <div class="text-center d-flex flex-column justify-content-evenly">
+            <div class="social">
+                <a href='https://www.facebook.com/khaled14ramadan' target="_blank"><i
+                        class="fab fa-facebook-f text-white m-2"></i></a>
+                <a href='https://www.youtube.com/channel/UCWlgAi4SrmbsKoFGSNpxH2g' target="_blank"><i
+                        class="fab fa-youtube text-white m-2"></i></a>
+                <a href="https://www.linkedin.com/in/khaled-ramadan-978a14168" target="_blank"><i
+                        class="fab fa-linkedin text-white m-2"></i></a>
+                <a href="https://github.com/Khaled14Ramadan" target="_blank"><i
+                        class="fab fa-github text-white m-2"></i></a>
+            </div>
+            <div class="foot">&copy; 2022 <span>Khaled Ramadan </span></div>
+
+        </div>
+    </footer>
+    <!-- ٍٍEnd footer -->
+
+    <!-- Modals -->
+    <div class="container">
+
+        <div class="modal fade" id="modal1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-info" id="exampleModalLabel">NOSA Trending</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-left">
+                        <img class="img-fluid" src="media/projects/nosa trending/1.PNG">
+                        <div class="d-flex justify-content-around m-4">
+                            <a href="https://nosa-trending.web.app" target="_blank">
+                                <button class="btn btn-outline-info">Visit Website</button>
+                            </a>
+                            <a href="https://github.com/Khaled14Ramadan/Nosa_Trending" target="_blank">
+                                <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
+                            </a>
+                        </div>
+                        <p class="text-muted my-2">This website works on showing the most trending movies and series in
+                            the week
+                            and shows them in an organized manner with few details (poster - title- rate).</p>
+                        <h4>The website pages : </h4>
+                        <ul>
+                            <li><span class="fw-bolder">Register :</span> You must register an account on the site.</li>
+                            <li><span class="fw-bolder">Login :</span> You must enter your acoount.</li>
+                            <li><span class="fw-bolder">Home :</span> this is showing the most 10 trending movies and 10
+                                trending series in the week.</li>
+                            <li><span class="fw-bolder">Movies :</span> this is showing the most 20 trending movies in
+                                the day.</li>
+                            <li><span class="fw-bolder">TV :</span> this is showing the most 20 trending series in the
+                                day.</li>
+                            <li><span class="fw-bolder">Details :</span> When click on any poster in Home , Movies or TV
+                                , you go to the details page have more details on this movie.</li>
+                        </ul>
+
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
 
-     <!-- model4 -->
-     <div class="modal fade" id="modal4"  role="dialog"
-     aria-labelledby="modal4" aria-hidden="true">
-     <div class="modal-dialog" role="document">
-         <div class="modal-content">
-             <div class="modal-header">
-                 <h5 class="modal-title text-info" id="exampleModalLabel">CRUDS</h5>
-                 <button type="button" class="close" data-bs-dismiss="modal"
-                     aria-label="Close">
-                     <span aria-hidden="true">&times;</span>
-                 </button>
-             </div>
-             <div class="modal-body text-left">
-                 <img class="img-fluid" src="media/projects/CRUDS/1.PNG">
-                 <div class="d-flex justify-content-around m-4">
-                     <a href="https://khaled14ramadan.github.io/product-mangement-system/" target="_blank">
-                         <button class="btn btn-outline-info">Visit Website</button>
-                     </a>
-                     <a href="https://github.com/Khaled14Ramadan/product-mangement-system" target="_blank">
-                         <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
-                     </a>
-                 </div>
-                 <p class="text-muted my-2"> This is one page for Create , Read , Update , Delete or Seatch any product in your localstorage . you can used with small database (5MB) for storage of details products in your shop  </p>
-                 
-             </div>
-         </div>
-     </div>
-     </div>
+        <!-- model2 -->
+        <div class="modal fade" id="modal2" role="dialog" aria-labelledby="modal2" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-info" id="exampleModalLabel">Leon Template</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-left">
+                        <img class="img-fluid" src="media/projects/leon/leon.PNG">
+                        <div class="d-flex justify-content-around m-4">
+                            <a href="https://khaled14ramadan.github.io/HTML_and_CSS_templet_one/" target="_blank">
+                                <button class="btn btn-outline-info">Visit Website</button>
+                            </a>
+                            <a href="https://github.com/Khaled14Ramadan/HTML_and_CSS_templet_one" target="_blank">
+                                <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
+                            </a>
+                        </div>
+                        <p class="text-muted my-2">this is my first simple template and Responsive design .
+                            I had implement by html and css .</p>
 
-     <!-- model5 -->
-     <div class="modal fade" id="modal5"  role="dialog"
-     aria-labelledby="modal5" aria-hidden="true">
-     <div class="modal-dialog" role="document">
-         <div class="modal-content">
-             <div class="modal-header">
-                 <h5 class="modal-title text-info" id="exampleModalLabel">Weather App</h5>
-                 <button type="button" class="close" data-bs-dismiss="modal"
-                     aria-label="Close">
-                     <span aria-hidden="true">&times;</span>
-                 </button>
-             </div>
-             <div class="modal-body text-left">
-                 <img class="img-fluid" src="media/projects/Weather App/1.PNG">
-                 <div class="d-flex justify-content-around m-4">
-                     <a href="https://khaled14ramadan.github.io/Weather_App/" target="_blank">
-                         <button class="btn btn-outline-info">Visit Website</button>
-                     </a>
-                     <a href="https://github.com/Khaled14Ramadan/Weather_App" target="_blank">
-                         <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
-                     </a>
-                 </div>
-                 <p class="text-muted my-2"> This page show the weather in the current day  for any city and display the next two days too </p>
-                 
-             </div>
-         </div>
-     </div>
-     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-     <!-- model6 -->
-     <div class="modal fade" id="modal6"  role="dialog"
-     aria-labelledby="modal6" aria-hidden="true">
-     <div class="modal-dialog" role="document">
-         <div class="modal-content">
-             <div class="modal-header">
-                 <h5 class="modal-title text-info" id="exampleModalLabel">Memory Card Game </h5>
-                 <button type="button" class="close" data-bs-dismiss="modal"
-                     aria-label="Close">
-                     <span aria-hidden="true">&times;</span>
-                 </button>
-             </div>
-             <div class="modal-body text-left">
-                 <img class="img-fluid" src="media/projects/Memory card/2.PNG">
-                 <div class="d-flex justify-content-around m-4">
-                     <a href="https://khaled14ramadan.github.io/Memory-Card-game/" target="_blank">
-                         <button class="btn btn-outline-info">Visit Website</button>
-                     </a>
-                     <a href="https://github.com/Khaled14Ramadan/Memory-Card-game" target="_blank">
-                         <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
-                     </a>
-                 </div>
-                 <p class="text-muted my-2">this is a memory card game , to win it's need get the points ,
-                    the points is calculated depend on operation on the time and wrong tries.  </p>
-                 
-             </div>
-         </div>
-     </div>
-     </div>
-    
+        <!-- model3 -->
+        <div class="modal fade" id="modal3" role="dialog" aria-labelledby="modal3" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-info" id="exampleModalLabel">Kasper Template</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-left">
+                        <img class="img-fluid" src="media/projects/kasper/1.PNG">
+                        <div class="d-flex justify-content-around m-4">
+                            <a href="https://khaled14ramadan.github.io/HTML_and_CSS_templet_two/" target="_blank">
+                                <button class="btn btn-outline-info">Visit Website</button>
+                            </a>
+                            <a href="https://github.com/Khaled14Ramadan/HTML_and_CSS_templet_two" target="_blank">
+                                <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
+                            </a>
+                        </div>
+                        <p class="text-muted my-2">this is a simple template and Responsive design .
+                            I had implement by html, css and some of javascript.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- model4 -->
+        <div class="modal fade" id="modal4" role="dialog" aria-labelledby="modal4" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-info" id="exampleModalLabel">CRUDS</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-left">
+                        <img class="img-fluid" src="media/projects/CRUDS/1.PNG">
+                        <div class="d-flex justify-content-around m-4">
+                            <a href="https://khaled14ramadan.github.io/product-mangement-system/" target="_blank">
+                                <button class="btn btn-outline-info">Visit Website</button>
+                            </a>
+                            <a href="https://github.com/Khaled14Ramadan/product-mangement-system" target="_blank">
+                                <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
+                            </a>
+                        </div>
+                        <p class="text-muted my-2"> This is one page for Create , Read , Update , Delete or Seatch any
+                            product in your localstorage . you can used with small database (5MB) for storage of details
+                            products in your shop </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- model5 -->
+        <div class="modal fade" id="modal5" role="dialog" aria-labelledby="modal5" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-info" id="exampleModalLabel">Weather App</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-left">
+                        <img class="img-fluid" src="media/projects/Weather App/1.PNG">
+                        <div class="d-flex justify-content-around m-4">
+                            <a href="https://khaled14ramadan.github.io/Weather_App/" target="_blank">
+                                <button class="btn btn-outline-info">Visit Website</button>
+                            </a>
+                            <a href="https://github.com/Khaled14Ramadan/Weather_App" target="_blank">
+                                <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
+                            </a>
+                        </div>
+                        <p class="text-muted my-2"> This page show the weather in the current day for any city and
+                            display the next two days too </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- model6 -->
+        <div class="modal fade" id="modal6" role="dialog" aria-labelledby="modal6" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-info" id="exampleModalLabel">Memory Card Game </h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-left">
+                        <img class="img-fluid" src="media/projects/Memory card/2.PNG">
+                        <div class="d-flex justify-content-around m-4">
+                            <a href="https://khaled14ramadan.github.io/Memory-Card-game/" target="_blank">
+                                <button class="btn btn-outline-info">Visit Website</button>
+                            </a>
+                            <a href="https://github.com/Khaled14Ramadan/Memory-Card-game" target="_blank">
+                                <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
+                            </a>
+                        </div>
+                        <p class="text-muted my-2">this is a memory card game , to win it's need get the points ,
+                            the points is calculated depend on operation on the time and wrong tries. </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- model7 -->
+        <div class="modal fade" id="modal7" role="dialog" aria-labelledby="modal7" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-info" id="exampleModalLabel">Mogo Template </h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-left">
+                        <img class="img-fluid" src="media/projects/Mogo_template/mogo.PNG">
+                        <div class="d-flex justify-content-around m-4">
+                            <a href="https://khaled14ramadan.github.io/Mogo_template-/" target="_blank">
+                                <button class="btn btn-outline-info">Visit Website</button>
+                            </a>
+                            <a href="//github.com/Khaled14Ramadan/Mogo_template-" target="_blank">
+                                <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
+                            </a>
+                        </div>
+                        <p class="text-muted my-2">the simple template implemented by html5 , bootstrap , SCSS and some
+                            pure JavaScript.
+                            it is implamentation highly-responsive desgin. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- model8 -->
+        <div class="modal fade" id="modal8" role="dialog" aria-labelledby="modal8" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-info" id="exampleModalLabel">Yannal_kababs Template </h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-left">
+                        <img class="img-fluid" src="media/projects/kababs/kababs1.PNG">
+                        <div class="d-flex justify-content-around m-4">
+                            <a href="https://khaled14ramadan.github.io/yannal-kababs/" target="_blank">
+                                <button class="btn btn-outline-info">Visit Website</button>
+                            </a>
+                            <a href="https://github.com/Khaled14Ramadan/yannal-kababs" target="_blank">
+                                <button class="btn btn-outline-info">view code <i class="fab fa-github"></i> </button>
+                            </a>
+                        </div>
+                        <p class="text-muted my-2">the simple template implemented by html5 , CSS3 some pure JavaScript.
+                            it is implamentation highly-responsive desgin. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-     <script src="Js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="Js/main.js"></script>
 
 </body>
+
 </html>
